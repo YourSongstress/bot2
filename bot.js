@@ -8,7 +8,7 @@ client.on('message', function(message) {
 	let guild = message.guild;
 	let channel = message.guild;
 	
-    if (message.content === "$boo"&&message.channel.id==="425631070600298498") { 
+    if (message.content === "$boo"&&message.channel.id==="435114159609348097") { 
       var interval = setInterval (function () {
         message.channel.send("boo")
       }, 2*1000); 
